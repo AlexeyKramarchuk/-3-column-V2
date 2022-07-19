@@ -79,11 +79,11 @@
 
     
 @media (min-widht: 1440px) {
-.container {
+.wrapper {
     background-color: black;
   }
 
-.grid-container {
+container {
     display: grid;
     grid-template-columns: repeat(5, 200px);
     grid-template-rows: repeat(5, minmax(200px, auto));
